@@ -11,7 +11,7 @@ jobs:
   build-sysdig-linux:
     runs-on: linux-s390x
     container:
-      image: ubuntu:24.04
+      image: ubuntu:22.04
     strategy:
       matrix:
         platform:
