@@ -9,7 +9,7 @@ on:
 
 jobs:
   build-sysdig-linux:
-    runs-on: ubuntu-24.04${{ matrix.platform == 'arm64' && '-arm' || '' }}
+    runs-on: linux-s390x
     container:
       image: ubuntu:24.04
     strategy:
