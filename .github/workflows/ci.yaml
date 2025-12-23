@@ -15,8 +15,7 @@ jobs:
     strategy:
       matrix:
         platform:
-          - amd64
-          - arm64
+          - s390x
     env:
       ZIG_VERSION: 0.14.1
 
